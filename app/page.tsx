@@ -1,7 +1,7 @@
 "use client";
 
-import PricingCard from "@/components/PricingCard";
-import { Button } from "@/components/ui/button";
+import PricingCard from "@/components/Pricing";
+import { Button } from "@/components/button";
 import { motion } from "framer-motion";
 import { useState } from "react";
 type Interval = "month" | "year";
@@ -34,7 +34,7 @@ const pricingDetails = [
       "Plus de visibilité sur Google",
       "Réponse aux avis google inclus",
       "1 shooting par semestre inclus",
-      "QR code personnalisé ",
+      "QR code personnalisé",
     ],
   },
   {
